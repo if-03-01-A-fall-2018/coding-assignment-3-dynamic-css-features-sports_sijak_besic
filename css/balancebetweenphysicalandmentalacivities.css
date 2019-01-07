@@ -1,0 +1,76 @@
+html{
+
+  background: url(background.jpg) no-repeat center fixed;
+  background-size: cover;
+  font-family:serif;
+  font-size: 20px;
+}
+
+article>h1{
+  font-size: 60px;
+  text-align: center;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+h3{
+  font-size: 25px;
+  left:50px;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 30px;
+  left:50px;
+  color:red;
+  text-shadow: 2px 2px 5px black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 25px;
+}
+
+ul>li {
+    float: left;
+}
+
+ul>li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+ul>li a:hover {
+    background-color: #111;
+}
+
+
+img{
+
+  float:left;
+}
+p.first {
+  margin-left:240px;
+
+}
+ol  {
+  margin-left: 240px;
+  list-style-type: disc;
+}
+
+h3>p{
+  margin-left: 1px;
+}
+
+@-webkit-keyframes example {
+    from {colo:black;}
+    to {color:red;}
