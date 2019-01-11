@@ -10,7 +10,7 @@ article>h1{
   font-size: 60px;
   text-align: center;
   -webkit-animation-name: example;
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
 }
 
@@ -24,7 +24,7 @@ h2{
   font-size: 30px;
   left:50px;
   color:red;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 1px 1px 3px black;
 }
 
 ul {
@@ -72,5 +72,10 @@ h3>p{
 }
 
 @-webkit-keyframes example {
-    from {colo:black;}
-    to {color:red;}
+0%   {color: red;}
+25%  {color: black;}
+50%  {color: red;}
+75% {color:black;}
+100% {color: red;}
+
+}
